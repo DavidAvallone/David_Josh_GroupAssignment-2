@@ -94,4 +94,16 @@ public class Player extends AbstractEntity{
     public void setPlayer_salary(double player_salary) {
         this.player_salary = player_salary;
     }
+
+    @Override
+    public String toString() {
+        return "id_player= " + id_player +
+                ", player_height= " + player_height +
+                ", player_weight= " + player_weight +
+                ", player_name= " + player_name +
+                ", player_nationality= " + player_nationality +
+                ", player_dob= " + player_dob +
+                ", main_position= " + main_position +
+                ", player_salary= $" + player_salary + "\n";
+    }
 }
